@@ -56,7 +56,7 @@ body {
 }
 
 .container {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -168,9 +168,4 @@ video, img {
         flex-direction: column;
         gap: 20px;
     }
-    .avatar {
-        float: none;
-
-    }
-
 }
