@@ -16,6 +16,7 @@ body {
     max-width: 1000px;
     min-height: 100vh;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .header {
@@ -158,4 +159,10 @@ video, img {
 .achievements {
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
