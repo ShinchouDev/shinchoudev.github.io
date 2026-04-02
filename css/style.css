@@ -146,26 +146,38 @@ h1 {
     gap: 50px;
 }
 
-video, img {
+video,
+img {
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     transition: 0.3s;
 }
 
 .A {
     width: 50%;
 }
+
 .achievements video {
     width: 95%;
 }
+
 .achievements {
     display: flex;
     justify-content: space-between;
 }
+
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
         gap: 20px;
     }
+}
+
+.form_now {
+    display: flex;
+}
+.form_now img{
+    width: 50%;
+    margin-right: 50px;
 }
