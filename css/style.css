@@ -126,12 +126,12 @@ header {
 }
 
 video {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -156,7 +156,9 @@ video, img {
 .A {
     width: 50%;
 }
-
+.achievements video {
+    width: 95%;
+}
 .achievements {
     display: flex;
     justify-content: space-between;
@@ -166,4 +168,9 @@ video, img {
         flex-direction: column;
         gap: 20px;
     }
+    .avatar {
+        float: none;
+
+    }
+
 }
