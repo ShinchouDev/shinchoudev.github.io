@@ -1,0 +1,161 @@
+* {
+    font-family: Arial, Helvetica, "sans-serif";
+    color: powderblue;
+
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill__bar {
+    width: 200px;
+    height: 15px;
+    border: 2px solid powderblue;
+    border-radius: 15px;
+
+}
+
+.html-css {
+    background-color: powderblue;
+    height: 100%;
+    border-radius: 15px;
+    animation: load_html-css 1s forwards;
+}
+
+.cpp {
+    background-color: powderblue;
+    height: 100%;
+    border-radius: 15px;
+    animation: load_cpp 1s forwards;
+}
+
+.c {
+    background-color: powderblue;
+    height: 100%;
+    border-radius: 15px;
+    animation: load_c 1s forwards;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: powderblue;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #87ceeb;
+    text-decoration: underline;
+}
+
+.main {
+    color: powderblue;
+}
+
+@keyframes load_html-css {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 150px;
+    }
+}
+
+@keyframes load_cpp {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50px;
+    }
+}
+
+@keyframes load_c {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50px;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+.transforms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.transform {
+    width: 450px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-vid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+}
+
+video, img {
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.A {
+    width: 50%;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+}
