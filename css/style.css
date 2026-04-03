@@ -124,7 +124,6 @@ header {
     width: 450px;
     text-align: center;
 }
-
 video {
     max-width: 100%;
     height: auto;
@@ -171,6 +170,9 @@ img {
     .content {
         flex-direction: column;
         gap: 20px;
+    }
+    .transform img{
+        max-width: 90%;
     }
 }
 
