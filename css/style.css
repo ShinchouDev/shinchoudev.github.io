@@ -153,10 +153,12 @@ img {
     transition: 0.3s;
 }
 
-.A {
+.A{
     width: 50%;
 }
-
+.A > video {
+    height: 500px;
+}
 .achievements video {
     width: 95%;
 }
